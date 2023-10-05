@@ -13,20 +13,20 @@ const FormLogin = () => {
     return (
         <form onSubmit={handleLogin}>
             <InputForm
-                label='Email'
-                type='email'
-                placeholder='example@mail.com'
-                name='email'
+                label="Email"
+                type="email"
+                placeholder="example@mail.com"
+                name="email"
             />
 
             <InputForm
-                label='Password'
-                type='password'
-                placeholder='*******'
-                name='password'
+                label="Password"
+                type="password"
+                placeholder="*******"
+                name="password"
             />
 
-            <Button type='submit' classname='bg-blue-600 w-full'>
+            <Button type="submit" classname="bg-blue-600 w-full">
                 Login
             </Button>
         </form>

@@ -3,36 +3,36 @@ import InputForm from "../Elements/Input";
 
 const FormRegister = () => {
     return (
-        <form action=''>
+        <form action="">
             <InputForm
-                label='Name'
-                type='text'
-                placeholder='Input your name...'
-                name='name'
+                label="Name"
+                type="text"
+                placeholder="Input your name..."
+                name="name"
             />
 
             <InputForm
-                label='Email'
-                type='email'
-                placeholder='example@mail.com'
-                name='email'
+                label="Email"
+                type="email"
+                placeholder="example@mail.com"
+                name="email"
             />
 
             <InputForm
-                label='Password'
-                type='password'
-                placeholder='*******'
-                name='password'
+                label="Password"
+                type="password"
+                placeholder="*******"
+                name="password"
             />
 
             <InputForm
-                label='Confirm Password'
-                type='password'
-                placeholder='*******'
-                name='confirmPassword'
+                label="Confirm Password"
+                type="password"
+                placeholder="*******"
+                name="confirmPassword"
             />
 
-            <Button classname='bg-blue-600 w-full'>Register</Button>
+            <Button classname="bg-blue-600 w-full">Register</Button>
         </form>
     );
 };
